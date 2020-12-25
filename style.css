@@ -29,12 +29,13 @@ body{
     background-color: red;
     color: #fff;
     width: 150px;
-    height: 40px;
+    height: 50px;
     border-radius: 20px;
     cursor: pointer;
     position: relative;
-    top: -150px;
-    left: 1100px;
+    top: -80px;
+    /* left: 1100px; */
+    left: 80%;
 }
 .reset-btn:focus{
     outline: none;
@@ -46,10 +47,11 @@ body{
     background-color: green;
     color: #fff;
     width: 150px;
-    height: 40px;
+    height: 50px;
     border-radius: 20px;
     cursor: pointer;
 }
+
 .loading-text {
     font-size: 50px;
     color: #fff;
@@ -69,7 +71,7 @@ body{
 }
 
 section .left img{
-    width: 80%;
+    width: 70%;
     flex: 0.2;
     border: 10px solid red;
 }
@@ -99,6 +101,7 @@ section header ul li{
 }
 .body-section .text {
     width: 70%;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-self: center;
