@@ -6,6 +6,9 @@ const reset = document.querySelector('.reset-btn')
 
 
 btn.addEventListener('click', () =>{
+    btn.classList.add('display-none')
+    btn.classList.remove('display')
+    
     let load = 0
     let int = setInterval(blurring, 30)
 
@@ -14,8 +17,8 @@ btn.addEventListener('click', () =>{
         if (load == 90) {
             // action
             greet.classList.add('display')
-            btn.classList.add('display-none')
-            btn.classList.remove('display')
+            // btn.classList.add('display-none')
+            // btn.classList.remove('display')
             reset.classList.add('display')
         }
         
