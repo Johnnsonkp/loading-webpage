@@ -39,3 +39,41 @@ body{
 .display{
     display: block;
 }
+.greeting {
+    color: #fff;
+}
+
+section .left img{
+    padding-top: 10px;
+    width: 70%;
+    flex: 0.2;
+}
+section header{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-left: 230px; */
+    align-items: top;
+    background-color: rgb(123,104,238, 0.5);
+    margin-bottom: 20px;
+}
+section header ul{
+    list-style: none;
+    display: flex;
+    
+}
+section header ul li{
+    padding: 10px;
+}
+.body-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.body-section .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* flex: 0.6; */
+}

@@ -1,7 +1,7 @@
 const loadText = document.querySelector('.loading-text')
 const bg = document.querySelector('.bg')
 const btn = document.querySelector('.btn')
-const greet = document.querySelector('h1')
+const greet = document.querySelector('.greeting')
 const reset = document.querySelector('.reset-btn')
 
 
@@ -13,8 +13,9 @@ btn.addEventListener('click', () =>{
         load++
         if (load == 90) {
             // action
-            greet.classList.toggle('display')
+            greet.classList.add('display')
             btn.classList.add('display-none')
+            btn.classList.remove('display')
             reset.classList.add('display')
         }
         
@@ -45,6 +46,6 @@ reset.addEventListener('click', () =>{
     btn.classList.add('display')
     reset.classList.remove('display')
     reset.classList.add('display-none')
-    greet.classList.toggle('display')
+    greet.classList.remove('display')
 
 })
